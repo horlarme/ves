@@ -14,6 +14,7 @@
 Route::get('/', ["uses" => "FrontController@index", "as" => "home_page"]);
 Route::get('/about', ["uses" => "FrontController@about", "as" => "about_page"]);
 Route::get('/contact', ["uses" => "FrontController@contact", "as" => "contact_page"]);
+Route::post('/contact', ["uses" => "ContactController@sendMessage"]);
 Route::group(['prefix' => 'portfolio'], function($r){
 	$r->get('/', ['uses' => "FrontController@portfolio", "as" => "portfolio_page"]);
 	$r->get('/drawing', ["uses" => "FrontController@portfolio_drawings", "as" => "drawings_page"]);

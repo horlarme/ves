@@ -49,33 +49,36 @@
                      <div class="section-title text-center">
                         <h3>Contact Form</h3>
                     </div>
+                    @if($errors)
+                        @foreach ($errors->all() as $error)
+                        <p class="text-center text-warning">{{ $error }}</p>
+                        @endforeach
+                    @endif
+                    @if(@$message)
+                        <p class="text-center text-success">{{ $message }}</p>
+                    @endif
                     <div class="row">
                         </div>
                         <!-- /.span3 -->
                         <div class="col-sm-8 col-sm-offset-2">
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" method="POST">
+                                {{csrf_field()}}
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon">Full Name</div>
-                                        <input type="text" class="form-control" name="fullname" placeholder="Full Name" />
+                                        <input type="text" class="form-control" name="fullname" placeholder="Full Name" value="{{old('fullname')}}" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon">E-Mail Address</div>
-                                        <input type="email" class="form-control" name="email" placeholder="E-Mail Address" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <div class="input-group-addon">Subject</div>
-                                        <input type="text" class="form-control" name="subject" placeholder="Subject" />
+                                        <input type="email" class="form-control" name="email" placeholder="E-Mail Address" value="{{old('email')}}" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group">
                                         <div class="input-group-addon">Message</div>
-                                        <textarea class="form-control" name="message" placeholder="Enter your message here in this box...." rows="8"></textarea>
+                                        <textarea class="form-control" name="message" placeholder="Enter your message here in this box...." rows="8">{{old('message')}}</textarea>
                                     </div>
                                 </div>
                                     <input type="submit" name="submit" value="Send Message" class="btn btn-primary">
