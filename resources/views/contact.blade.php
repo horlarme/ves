@@ -49,7 +49,7 @@
                      <div class="section-title text-center">
                         <h3>Contact Form</h3>
                     </div>
-                    @if($errors)
+                    @if(@$errors)
                         @foreach ($errors->all() as $error)
                         <p class="text-center text-warning">{{ $error }}</p>
                         @endforeach
