@@ -159,6 +159,36 @@
 
             <div class="text-center panel-heading">
                 <h3 class="panel-title">
+                    <a href="#sse" class="panel-title panel-toggle collapsed" data-toggle="collapse">Selected Solo
+                        Exhibitions</a></h3>
+            </div>
+            <div class="row panel-collapse collapse" id="sse">
+                <div class="panel-body">
+                    <div class="col-sm-12">
+                        <p class="lead">2017 “In the Kingdom of this World”, Tyburn Gallery, London<br/><br />
+                            2016 1:54 Contemporary African Art Fair<br/><br />2015 “Paperwork: Works on paper” Constant
+                            Capital Gallery, Lagos<br/><br />2014 “Chronicles Of The Enchanted World” Gallery of African Art,
+                            London<br/><br />2014 “In The Lion’s Lair: Photographing Wole Soyinka” Ake Arts and Books
+                            Festival, Abeokuta, Nigeria<br/><br />2013 “Amusing The Muse” Temple Muse, Lagos<br/><br />2012
+                            "Crossing the Line" Bloom Gallery, Lagos<br/><br />2011 “Entrances & Exits: In search of not
+                            forgetting, CCA, Lagos Nigeria<br/><br />2011 “Artist Experience” Whitespace, Ikoyi Lagos<br/><br />2010
+                            “Roforofo Fight: Painting to Fela’s Music” Bloom Gallery, Lagos Nigeria<br/><br />2009 “Mirrors
+                            and Mirages” Terra Kulture Gallery, Lagos, Nigeria<br/><br />2008 “Invasion of Privacy” Jennings
+                            Gallery, Washington, D.C<br/><br />2007 “Rocks & Roses” Victoria Crown Plaza, Lagos, Nigeria.<br/><br />2007
+                            “Labyrinth of Memories” Didi Museum, Lagos, Nigeria.<br/><br />2006 “Beyond The River” Grenada
+                            Embassy, Washington, D.C.<br/><br />2005 “Body Language” Utopia Art/Grill, Washington, D.C.<br/><br />2005
+                            “Divine Intervention” Howard University A J Blackburn Center Gallery, Washington, D.C.<br/><br />2005
+                            “Talking Walls” BB&T Bank, NW Washington, D.C.<br/><br />2004 “Songs and Stories: Moonlight
+                            Delight” Utopia Gallery, Washington, D.C.<br/><br />2001 “Discovering the gods” Monroe Gallery,
+                            Arts Club of Washington, Washington, D.C.<br/><br />2000 “Spirits In Dialogue” The
+                            Brazilian-American Cultural Institute Gallery, Washington, D.C.<br/br />2000 “Beyond The
+                            Surface” Utopia Art/Grill, Washington, D.C</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center panel-heading">
+                <h3 class="panel-title">
                     <a href="#" class="panel-title panel-toggle collapsed" data-toggle="collapse">Biography</a></h3>
             </div>
             <div class="row panel-collapse collapse" id="">
