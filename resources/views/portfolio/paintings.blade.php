@@ -20,89 +20,198 @@
     <!-- /filter -->
     <div class="container inner">
       <ul class="items">
-        <li class="item thumb conceptual">
-          <figure><a href="portfolio-post.html">
-            <div class="text-overlay">
-              <div class="info">Nibh Egestas Amet</div>
-            </div>
-            <img src="{{asset('image/art/pp1.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb black-white">
-          <figure><a href="portfolio-post2.html">
-            <div class="text-overlay">
-              <div class="info">Vulputate Nullam Pellentesque</div>
-            </div>
-            <img src="{{asset('image/art/pp2.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb conceptual">
-          <figure><a href="portfolio-post3.html">
-            <div class="text-overlay">
-              <div class="info">Condimentum Tristique Porta</div>
-            </div>
-            <img src="{{asset('image/art/pp3.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb conceptual">
-          <figure><a href="portfolio-post4.html">
-            <div class="text-overlay">
-              <div class="info">Amet Sollicitudin Adipiscing</div>
-            </div>
-            <img src="{{asset('image/art/pp4.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb portrait">
-          <figure><a href="portfolio-post.html">
-            <div class="text-overlay">
-              <div class="info">Sollicitudin Lorem Tortor</div>
-            </div>
-            <img src="{{asset('image/art/pp5.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb landscape">
-          <figure><a href="portfolio-post2.html">
-            <div class="text-overlay">
-              <div class="info">Ullamcorper Tellus</div>
-            </div>
-            <img src="{{asset('image/art/pp6.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb portrait">
-          <figure><a href="portfolio-post3.html">
-            <div class="text-overlay">
-              <div class="info">Fermentum Ultricies Inceptos</div>
-            </div>
-            <img src="{{asset('image/art/pp7.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb conceptual">
-          <figure><a href="portfolio-post4.html">
-            <div class="text-overlay">
-              <div class="info">Bibendum Egestas Ipsum</div>
-            </div>
-            <img src="{{asset('image/art/pp8.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb black-white">
-          <figure><a href="portfolio-post.html">
-            <div class="text-overlay">
-              <div class="info">Parturient Tristique Pellentesque</div>
-            </div>
-            <img src="{{asset('image/art/pp9.jpg')}}" alt="" /> </a></figure>
-        </li>
-        <li class="item thumb conceptual">
-          <figure><a href="portfolio-post2.html">
+      <li class="item thumb conceptual">
+          <figure><a href="{{asset('/image/art/paintings/10.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-10">
             <div class="text-overlay">
               <div class="info">Vestibulum Sem Condimentum</div>
             </div>
-            <img src="{{asset('image/art/pp10.jpg')}}" alt="" /> </a></figure>
+            <img src="{{asset('/image/art/paintings/10.jpg')}}" alt="" /> </a></figure>
+          <div id="title-10" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
         </li>
         <li class="item thumb landscape">
-          <figure><a href="portfolio-post3.html">
+          <figure><a href="{{asset('/image/art/paintings/11.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-11">
             <div class="text-overlay">
               <div class="info">Pellentesque Malesuada Elit</div>
             </div>
-            <img src="{{asset('image/art/pp11.jpg')}}" alt="" /> </a></figure>
+            <img src="{{asset('/image/art/paintings/11.jpg')}}" alt="" /> </a></figure>
+          <div id="title-11" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
         </li>
         <li class="item thumb landscape">
-          <figure><a href="portfolio-post4.html">
+          <figure><a href="{{asset('/image/art/paintings/12.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-12">
             <div class="text-overlay">
               <div class="info">Tristique Fusce Quam</div>
             </div>
-            <img src="{{asset('image/art/pp12.jpg')}}" alt="" /> </a></figure>
+            <img src="{{asset('/image/art/paintings/12.jpg')}}" alt="" /> </a></figure>
+          <div id="title-12" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb conceptual">
+          <figure><a href="{{asset('/image/art/paintings/1.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-01">
+            <div class="text-overlay">
+              <div class="info">Nibh Egestas Amet</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/1.jpg')}}" alt="" /> </a></figure>
+          <div id="title-01" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+           <!-- /.info .hidden   -->
+        </li>
+        <li class="item thumb black-white">
+          <figure><a href="{{asset('/image/art/paintings/2.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info">Vulputate Nullam Pellentesque</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/2.jpg')}}" alt="" /> </a></figure>
+          <div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+           <!-- /.info .hidden   -->
+        </li>
+        <li class="item thumb conceptual">
+          <figure><a href="{{asset('/image/art/paintings/3.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-03">
+            <div class="text-overlay">
+              <div class="info">Condimentum Tristique Porta</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/3.jpg')}}" alt="" /> </a></figure>
+          <div id="title-03" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+           <!-- /.info .hidden   -->
+        </li>
+        <li class="item thumb conceptual">
+          <figure><a href="{{asset('/image/art/paintings/4.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-04">
+            <div class="text-overlay">
+              <div class="info">Amet Sollicitudin Adipiscing</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/4.jpg')}}" alt="" /> </a></figure>
+          <div id="title-04" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb portrait">
+          <figure><a href="{{asset('/image/art/paintings/5.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-05">
+            <div class="text-overlay">
+              <div class="info">Sollicitudin Lorem Tortor</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/5.jpg')}}" alt="" /> </a></figure>
+          <div id="title-05" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb landscape">
+          <figure><a href="{{asset('/image/art/paintings/6.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-06">
+            <div class="text-overlay">
+              <div class="info">Ullamcorper Tellus</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/6.jpg')}}" alt="" /> </a></figure>
+          <div id="title-06" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb portrait">
+          <figure><a href="{{asset('/image/art/paintings/7.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-07">
+            <div class="text-overlay">
+              <div class="info">Fermentum Ultricies Inceptos</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/7.jpg')}}" alt="" /> </a></figure>
+          <div id="title-07" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb conceptual">
+          <figure><a href="{{asset('/image/art/paintings/8.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-08">
+            <div class="text-overlay">
+              <div class="info">Bibendum Egestas Ipsum</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/8.jpg')}}" alt="" /> </a></figure>
+          <div id="title-08" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb black-white">
+          <figure><a href="{{asset('/image/art/paintings/9.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-09">
+            <div class="text-overlay">
+              <div class="info">Parturient Tristique Pellentesque</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/9.jpg')}}" alt="" /> </a></figure>
+          <div id="title-09" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          
+        </li>
+        
+        <li class="item thumb portrait">
+          <figure><a href="{{asset('/image/art/paintings/13.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-13">
+            <div class="text-overlay">
+              <div class="info">Bibendum Sit Tellus</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/13.jpg')}}" alt="" /> </a></figure>
+          <div id="title-13" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb black-white">
+          <figure><a href="{{asset('/image/art/paintings/14.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-14">
+            <div class="text-overlay">
+              <div class="info">Commodo Elit Tristique</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/14.jpg')}}" alt="" /> </a></figure>
+          <div id="title-14" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb landscape">
+          <figure><a href="{{asset('/image/art/paintings/15.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-15">
+            <div class="text-overlay">
+              <div class="info">Dapibus Ultricies Fusce</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/15.jpg')}}" alt="" /> </a></figure>
+          <div id="title-15" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb black-white">
+          <figure><a href="{{asset('/image/art/paintings/16.jpg')}}" class="fancybox-media" data-rel="portfolio" data-title-id="title-16">
+            <div class="text-overlay">
+              <div class="info">Condimentum Venenatis Justo</div>
+            </div>
+            <img src="{{asset('/image/art/paintings/16.jpg')}}" alt="" /> </a></figure>
+          <div id="title-16" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+          <!-- /.info .hidden --> 
         </li>
       </ul>
       <!-- /.items --> 

@@ -46,7 +46,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="{{route('drawings_page')}}">Drawings</a></li>
                                         <li><a href="{{route('paintings_page')}}">Paintings</a></li>
-                                        <li><a href="#">Illustrations</a></li>
+                                        <li><a href="{{route('installation_page')}}">Installations</a></li>
                                         <li><a href="#">Photography</a></li>
                                     </ul>
                                 </li>

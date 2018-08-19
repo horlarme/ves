@@ -19,5 +19,6 @@ Route::group(['prefix' => 'portfolio'], function($r){
 	$r->get('/', ['uses' => "FrontController@portfolio", "as" => "portfolio_page"]);
 	$r->get('/drawing', ["uses" => "FrontController@portfolio_drawings", "as" => "drawings_page"]);
 	$r->get('/paintings', ["uses" => "FrontController@portfolio_paintings", "as" => "paintings_page"]);
+	$r->get('/installation', ["uses" => "FrontController@portfolio_installation", "as" => "installation_page"]);
 });
 Route::get('/blog', ["uses" => "FrontController@about", "as" => "blog_page"]);
