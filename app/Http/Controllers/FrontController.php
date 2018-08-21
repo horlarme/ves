@@ -32,4 +32,8 @@ class FrontController extends Controller
     function portfolio_paintings(){
     	return view('portfolio.paintings');
     }
+
+    function portfolio_installations(){
+    	return view('portfolio.installation');
+    }
 }

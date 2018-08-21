@@ -22,7 +22,7 @@
     <div class="swiper-wrapper"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
       <div class="swiper-container gallery">
         <div class="swiper">
-          <div class="item"> <img src="{{asset('image/art/gc0.jpg')}}" alt="" />
+          <div class="item"> <img src="image/art/gc0.jpg" alt="" />
             <div class="details">
               <div class="content">
                 <div class="wrap">
@@ -38,14 +38,14 @@
               </div>
             </div>
           </div>
-          <div class="item"> <img src="{{asset('image/art/gc1.jpg')}}" alt="" /><span class="caption">Risus magna quam nibh vestibulum</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gc2.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gc3.jpg')}}" alt="" /><span class="caption">Donec ullamcorper nulla non metus auctor</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gc4.jpg')}}" alt="" /><span class="caption">Adipiscing ipsum dolor sit amet consectetur.</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gc5.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gc6.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gc7.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gc8.jpg')}}" alt="" /> </div>
+          <div class="item"> <img src="image/art/portfolio/drawings/1.jpg" alt="" /><span class="caption">Risus magna quam nibh vestibulum</span> </div>
+          <div class="item"> <img src="image/art/portfolio/drawings/2.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/portfolio/drawings/3.jpg" alt="" /><span class="caption">Donec ullamcorper nulla non metus auctor</span> </div>
+          <!-- <div class="item"> <img src="image/art/gc4.jpg" alt="" /><span class="caption">Adipiscing ipsum dolor sit amet consectetur.</span> </div>
+          <div class="item"> <img src="image/art/gc5.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gc6.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gc7.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gc8.jpg" alt="" /> </div> -->
         </div>
       </div>
     </div>
@@ -56,7 +56,7 @@
     <div class="swiper-wrapper"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
       <div class="swiper-container gallery">
         <div class="swiper">
-          <div class="item"> <img src="{{asset('image/art/gl0.jpg')}}" alt="" />
+          <div class="item"> <img src="image/art/gl0.jpg" alt="" />
             <div class="details">
               <div class="content">
                 <div class="wrap">
@@ -71,13 +71,13 @@
               </div>
             </div>
           </div>
-          <div class="item"> <img src="{{asset('image/art/gl1.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gl2.jpg')}}" alt="" /><span class="caption">Cum sociis natoque penatibus et magnis dis</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gl3.jpg')}}" alt="" /><span class="caption">Nulla vitae elit libero a pharetra augue</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gl4.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gl5.jpg')}}" alt="" /><span class="caption">Nullam id dolor nibh ultricies vehicula</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gl6.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gl7.jpg')}}" alt="" /> </div>
+          <div class="item"> <img src="image/art/portfolio/paintings/1.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/portfolio/paintings/2.jpg" alt="" /><span class="caption">Cum sociis natoque penatibus et magnis dis</span> </div>
+          <div class="item"> <img src="image/art/portfolio/paintings/3.jpg" alt="" /><span class="caption">Nulla vitae elit libero a pharetra augue</span> </div>
+          <!-- <div class="item"> <img src="image/art/gl4.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gl5.jpg" alt="" /><span class="caption">Nullam id dolor nibh ultricies vehicula</span> </div>
+          <div class="item"> <img src="image/art/gl6.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gl7.jpg" alt="" /> </div> -->
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
     <div class="swiper-wrapper"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
       <div class="swiper-container gallery">
         <div class="swiper">
-          <div class="item"> <img src="{{asset('image/art/gp0.jpg')}}" alt="" />
+          <div class="item"> <img src="image/art/gp0.jpg" alt="" />
             <div class="details">
               <div class="content">
                 <div class="wrap">
@@ -104,13 +104,13 @@
               </div>
             </div>
           </div>
-          <div class="item"> <img src="{{asset('image/art/gp1.jpg')}}" alt="" /><span class="caption">Risus magna quam nibh vestibulum</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gp2.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gp3.jpg')}}" alt="" /><span class="caption">Donec ullamcorper nulla non metus auctor</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gp4.jpg')}}" alt="" /><span class="caption">Adipiscing ipsum dolor sit amet consectetur.</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gp5.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gp6.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gp7.jpg')}}" alt="" /> </div>
+          <div class="item"> <img src="image/art/portfolio/installations/1.jpg" alt="" /><span class="caption">Risus magna quam nibh vestibulum</span> </div>
+          <div class="item"> <img src="image/art/portfolio/installations/2.jpg" alt="" /> <span class="caption">Donec ullamcorper nulla non metus auctor</span></div>
+          <div class="item"> <img src="image/art/portfolio/installations/3.jpg" alt="" /><span class="caption">Donec ullamcorper nulla non metus auctor</span> </div>
+          <div class="item"> <img src="image/art/portfolio/installations/4.jpg" alt="" /><span class="caption">Adipiscing ipsum dolor sit amet consectetur.</span> </div>
+          <!-- <div class="item"> <img src="image/art/gp5.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gp6.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gp7.jpg" alt="" /> </div> -->
         </div>
       </div>
     <!--</div>-->
@@ -121,7 +121,7 @@
     <div class="swiper-wrapper"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
       <div class="swiper-container gallery">
         <div class="swiper">
-          <div class="item"> <img src="{{asset('image/art/gb0.jpg')}}" alt="" />
+          <div class="item"> <img src="image/art/gb0.jpg" alt="" />
             <div class="details">
               <div class="content">
                 <div class="wrap">
@@ -137,16 +137,15 @@
               </div>
             </div>
           </div>
-          <div class="item"> <img src="{{asset('image/art/gb1.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gb2.jpg')}}" alt="" /><span class="caption">Cum sociis natoque penatibus et magnis dis</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gb3.jpg')}}" alt="" /><span class="caption">Nulla vitae elit libero a pharetra augue</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gb4.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gb5.jpg')}}" alt="" /><span class="caption">Nullam id dolor nibh ultricies vehicula</span> </div>
-          <div class="item"> <img src="{{asset('image/art/gb6.jpg')}}" alt="" /> </div>
-          <div class="item"> <img src="{{asset('image/art/gb7.jpg')}}" alt="" /> </div>
+          <div class="item"> <img src="image/art/gb1.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gb2.jpg" alt="" /><span class="caption">Cum sociis natoque penatibus et magnis dis</span> </div>
+          <div class="item"> <img src="image/art/gb3.jpg" alt="" /><span class="caption">Nulla vitae elit libero a pharetra augue</span> </div>
+          <div class="item"> <img src="image/art/gb4.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gb5.jpg" alt="" /><span class="caption">Nullam id dolor nibh ultricies vehicula</span> </div>
+          <div class="item"> <img src="image/art/gb6.jpg" alt="" /> </div>
+          <div class="item"> <img src="image/art/gb7.jpg" alt="" /> </div>
         </div>
       </div>
     <!--</div>-->
   </section>
-  <!-- /section -->
-  @stop
+  <!-- /section -->  @stop
