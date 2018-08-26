@@ -36,18 +36,18 @@
                             <ul class="nav navbar-nav">
                                 <li class="dropdown"><a href="{{route('home_page')}}" class="dropdown-toggle js-activated">Home</a></li>
                                 <li class="dropdown"><a href="{{route('about_page')}}" class="dropdown-toggle js-activated">Bio</a></li>
-                                <li class="dropdown"><a href="{{route('blog_page')}}" class="dropdown-toggle js-activated">Publications</a>
+<!--                                <li class="dropdown"><a href="{{route('blog_page')}}" class="dropdown-toggle js-activated">Publications</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Articles</a></li>
                                         <li><a href="#">Press Release</a></li>
                                     </ul>
-                                </li>
+                                </li>-->
                                 <li class="dropdown"><a href="{{route('portfolio_page')}}" class="dropdown-toggle js-activated">Portfolio</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="{{route('drawings_page')}}">Drawings</a></li>
                                         <li><a href="{{route('paintings_page')}}">Paintings</a></li>
                                         <li><a href="{{route('installation_page')}}">Installations</a></li>
-                                        <li><a href="#">Photography</a></li>
+                                        <li><a href="{{route('sculptings_perforations_page')}}">Sculptings & Perforations</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="{{route('contact_page')}}" class="dropdown-toggle js-activated">Contact</a>

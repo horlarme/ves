@@ -4,7 +4,7 @@
             <div class="fullscreenbanner-container revolution">
                 <div class="fullscreenbanner">
                     <ul>
-                        <li data-transition="fade"> <img src="images/1.jpg" alt="" />
+                        <li data-transition="fade"> <img src="image/5.jpg" alt="" />
                             <div class="caption condensed customin customout opacity-bg " data-x="center" data-y="200" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                  data-speed="600"
@@ -27,18 +27,18 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn">Based in Nigeria & the US</div>
                         </li>
-                        <li data-transition="fade"> <img src="images/3.jpg" alt="" />
-                            <div class="caption sfb upper opacity-bg" data-x="center" data-y="250" data-speed="900" data-start="800" data-easing="Sine.easeOut">Urban Photography</div>
-                            <div class="caption sfb lower opacity-bg" data-x="center" data-y="305" data-speed="900" data-start="1300" data-easing="Sine.easeOut">Fusce Pharetra Cras Mattis Elit</div>
+                        <li data-transition="fade"> <img src="image/6.jpg" alt="" />
+                            <div class="caption sfb upper opacity-bg" data-x="center" data-y="250" data-speed="900" data-start="800" data-easing="Sine.easeOut"></div>
+                            <div class="caption sfb lower opacity-bg" data-x="center" data-y="305" data-speed="900" data-start="1300" data-easing="Sine.easeOut"></div>
                         </li>
-                        <li data-transition="fade"> <img src="images/4.jpg" alt="" />
-                            <div class="caption sfb upper opacity-bg" data-x="center" data-y="250" data-speed="900" data-start="800" data-easing="Sine.easeOut">Urban Photography</div>
-                            <div class="caption sfb lower opacity-bg" data-x="center" data-y="305" data-speed="900" data-start="1300" data-easing="Sine.easeOut">Fusce Pharetra Cras Mattis Elit</div>
-                        </li>
-                        <li data-transition="fade"> <img src="images/2.jpg" alt="" />
+<!--                        <li data-transition="fade"> <img src="image/1.jpg" alt="" />
+                            <div class="caption sfb upper opacity-bg" data-x="center" data-y="250" data-speed="900" data-start="800" data-easing="Sine.easeOut"></div>
+                            <div class="caption sfb lower opacity-bg" data-x="center" data-y="305" data-speed="900" data-start="1300" data-easing="Sine.easeOut"></div>
+                        </li>-->
+<!--                        <li data-transition="fade"> <img src="image/2.jpg" alt="" />
                             <div class="caption sfb upper opacity-bg" data-x="745" data-y="300" data-speed="900" data-start="800" data-easing="Sine.easeOut">Landscape Photography</div>
                             <div class="caption sfb lower opacity-bg" data-x="745" data-y="355" data-speed="900" data-start="1300" data-easing="Sine.easeOut">Nibh Fermentum Cras Parturient</div>
-                        </li>
+                        </li>-->
                     </ul>
                     <div class="tp-bannertimer tp-bottom"></div>
                 </div>
@@ -105,34 +105,34 @@
             <div class="grid-portfolio full-portfolio">
                 <ul class="items">
                     <li class="item thumb conceptual">
-                        <figure><a href="portfolio-post.html">
+                        <figure><a href="{{route('ogoni_page')}}">
                                 <div class="text-overlay">
-                                    <div class="info">Nibh Egestas Amet</div>
+                                    <div class="info">Ogoni Nine</div>
                                 </div>
-                                <img src="image/art/p1.jpg" alt="" /> </a></figure>
+                                <img src="http://res.cloudinary.com/dbdr2ext0/image/upload/c_scale,h_290,w_440/v1534960865/ves/5.jpg" alt="" /> </a></figure>
                     </li>
                     <li class="item thumb black-white">
-                        <figure><a href="portfolio-post2.html">
+                        <figure><a href="{{route('bio_of_forgotten_page')}}">
                                 <div class="text-overlay">
-                                    <div class="info">Vulputate Nullam Pellentesque</div>
+                                    <div class="info">Biography of the forgotten</div>
                                 </div>
-                                <img src="image/art/p2.jpg" alt="" /> </a></figure>
+                                <img src="http://res.cloudinary.com/dbdr2ext0/image/upload/c_scale,w_440/v1534960931/ves/14.jpg" alt="" /> </a></figure>
                     </li>
                     <li class="item thumb conceptual">
-                        <figure><a href="portfolio-post3.html">
+                        <figure><a href="{{route('prayer_room_page')}}">
                                 <div class="text-overlay">
-                                    <div class="info">Condimentum Tristique Porta</div>
+                                    <div class="info">Prayer Room</div>
                                 </div>
-                                <img src="image/art/p3.jpg" alt="" /> </a></figure>
+                                <img src="http://res.cloudinary.com/dbdr2ext0/image/upload/c_scale,h_290,w_440/v1534960928/ves/12.jpg" alt="" /> </a></figure>
                     </li>
                     <li class="item thumb conceptual">
-                        <figure><a href="portfolio-post4.html">
+                        <figure><a href="{{route('isimagodo_page')}}">
                                 <div class="text-overlay">
-                                    <div class="info">Amet Sollicitudin Adipiscing</div>
+                                    <div class="info">ISIMAGODO – The Unknowable, Nirox Foundation Sculpture Park, South Africa, 2016</div>
                                 </div>
-                                <img src="image/art/p4.jpg" alt="" /> </a></figure>
+                                <img src="http://res.cloudinary.com/dbdr2ext0/image/upload/c_scale,w_440/v1534960934/ves/1.jpg" alt="" /> </a></figure>
                     </li>
-                    <li class="item thumb portrait">
+<!--                    <li class="item thumb portrait">
                         <figure><a href="portfolio-post.html">
                                 <div class="text-overlay">
                                     <div class="info">Sollicitudin Lorem Tortor</div>
@@ -159,13 +159,13 @@
                                     <div class="info">Bibendum Egestas Ipsum</div>
                                 </div>
                                 <img src="image/art/p8.jpg" alt="" /> </a></figure>
-                    </li>
+                    </li>-->
                 </ul>
                 <!-- /.items --> 
             </div>
             <!-- /.portfolio -->
             <div class="divide30"></div>
-            <div class="text-center"> <a href="#" class="btn"><i class="icon-picture"></i>See Portfolio</a> </div>
+            <div class="text-center"> <a href="{{route('portfolio_page')}}" class="btn"><i class="icon-picture"></i>See Portfolio</a> </div>
         </div>
 
         <div class="light-wrapper">
@@ -229,29 +229,7 @@
         </div>
         <!-- /.light-wrapper -->
 
-        <div class="parallax testimonials">
-            <div class="container inner text-center">
-                <div class="section-title text-center">
-                    <h3>Customer Testimonials</h3>
-                </div>
-                <div id="testimonials" class="tab-container">
-                    <div class="panel-container">
-                        <div id="tst1"> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum.  Praesent commodo cursus magna.<span class="author">Nikolas Brooten</span> </div>
-                        <div id="tst2"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna.<span class="author">Coriss Ambady</span> </div>
-                        <div id="tst3"> Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. <span class="author">Barclay Widerski</span> </div>
-                        <div id="tst4"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor gravida at eget metus.<span class="author">Elsie Spear</span> </div>
-                    </div>
-                    <ul class="etabs">
-                        <li class="tab"><a href="#tst1">1</a></li>
-                        <li class="tab"><a href="#tst2">2</a></li>
-                        <li class="tab"><a href="#tst3">3</a></li>
-                        <li class="tab"><a href="#tst4">4</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- /.container --> 
-        </div>
-        <!-- /.testimonials -->
+        
         <div class="dark-wrapper">
             <div class="container inner">
                 <div class="section-title text-center">
@@ -264,7 +242,7 @@
                     </div>
                 </div>
                 <div class="divide40"></div>
-                <div class="text-center"> <a href="https://www.flickr.com/photos/pagolbhai123/" target="_blank" class="btn"><i class="icon-s-flickr"></i>Flickr Page</a> </div>
+                <div class="text-center"> <a href="https://www.flickr.com/photos/68471028@N02/" target="_blank" class="btn"><i class="icon-s-flickr"></i>Flickr Page</a> </div>
             </div>
             <!-- /.container --> 
         </div>
