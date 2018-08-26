@@ -56,4 +56,17 @@ class FrontController extends Controller
     function portfolio_page_prayer_room(){
     	return view('portfolio.page.prayerroom');
     }
+    
+    function page_prayer_room(){
+    	return view('page.prayerroom');
+    }
+    function page_bio_of_forgotten(){
+    	return view('page.bio_of_forgotten');
+    }
+    function page_isimagodo(){
+    	return view('page.isimagodo');
+    }
+    function page_ogoni(){
+    	return view('page.ogoni');
+    }
 }
