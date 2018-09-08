@@ -36,4 +36,17 @@ class FrontController extends Controller
     function portfolio_installations(){
     	return view('portfolio.installation');
     }
+
+    function portfolio_ogoni(){
+    	return view('portfolio.ogoni');
+    }
+    function portfolio_forgotten(){
+    	return view('portfolio.forgotten');
+    }
+    function portfolio_isimago(){
+    	return view('portfolio.isimago');
+    }
+    function portfolio_prayer(){
+    	return view('portfolio.prayer');
+    }
 }

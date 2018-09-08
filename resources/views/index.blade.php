@@ -229,7 +229,7 @@
         </div>
         <!-- /.light-wrapper -->
 
-        <div class="parallax testimonials">
+        <div class="black-wrapper parallax testimonials">
             <div class="container inner text-center">
                 <div class="section-title text-center">
                     <h3>Customer Testimonials</h3>
