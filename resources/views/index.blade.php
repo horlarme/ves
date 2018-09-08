@@ -11,7 +11,7 @@
                                  data-start="700"
                                  data-easing="Back.easeOut"
                                  data-endspeed="300"
-                                 data-endeasing="Power1.easeIn">Victor Ehikhamenor</div>
+                                 data-endeasing="Power1.easeIn"><a href="{{route('prayer_page')}}">Victor Ehikhamenor</a></div>
                             <div class="caption slab customin customout opacity-bg" data-x="center" data-y="264" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                  data-speed="600"
@@ -32,11 +32,11 @@
                             <div class="caption sfb lower opacity-bg" data-x="center" data-y="305" data-speed="900" data-start="1300" data-easing="Sine.easeOut">Fusce Pharetra Cras Mattis Elit</div>
                         </li>
                         <li data-transition="fade"> <img src="image/4.jpg" alt="" />
-                            <div class="caption sfb upper opacity-bg" data-x="center" data-y="250" data-speed="900" data-start="800" data-easing="Sine.easeOut">Urban Photography</div>
+                            <div class="caption sfb upper opacity-bg" data-x="center" data-y="250" data-speed="900" data-start="800" data-easing="Sine.easeOut"><a href="{{route('ogoni_page')}}">Urban Photography</a></div>
                             <div class="caption sfb lower opacity-bg" data-x="center" data-y="305" data-speed="900" data-start="1300" data-easing="Sine.easeOut">Fusce Pharetra Cras Mattis Elit</div>
                         </li>
                         <li data-transition="fade"> <img src="image/2.jpg" alt="" />
-                            <div class="caption sfb upper opacity-bg" data-x="745" data-y="300" data-speed="900" data-start="800" data-easing="Sine.easeOut">Landscape Photography</div>
+                            <div class="caption sfb upper opacity-bg" data-x="745" data-y="300" data-speed="900" data-start="800" data-easing="Sine.easeOut"><a href="{{route('isimago_page')}}">Landscape Photography</a></div>
                             <div class="caption sfb lower opacity-bg" data-x="745" data-y="355" data-speed="900" data-start="1300" data-easing="Sine.easeOut">Nibh Fermentum Cras Parturient</div>
                         </li>
                     </ul>
