@@ -20,6 +20,7 @@ Route::group(['prefix' => 'portfolio'], function($r){
 	$r->get('/drawing', ["uses" => "FrontController@portfolio_drawings", "as" => "drawings_page"]);
 	$r->get('/paintings', ["uses" => "FrontController@portfolio_paintings", "as" => "paintings_page"]);
 	$r->get('/installation', ["uses" => "FrontController@portfolio_installation", "as" => "installation_page"]);
+	$r->get('/sculpt_perfs', ["uses" => "FrontController@portfolio_sculpt_perfs", "as" => "sculptings_perforations_page"]);
 
 	$r->get('ogoni-nine',['uses' => 'FrontController@portfolio_ogoni', 'as'=>'ogoni_page']);
 	$r->get('isimago',['uses' => 'FrontController@portfolio_isimago', 'as'=>'isimago_page']);

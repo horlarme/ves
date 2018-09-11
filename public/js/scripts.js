@@ -325,10 +325,10 @@ jQuery('.fullscreenbanner').revolution(
 /*-----------------------------------------------------------------------------------*/	
 $(document).ready(function($){
 	$('.flickr-feed').dcFlickr({
-		limit: 15, 
+		limit: 10, 
         q: { 
-            id: '51789731@N07',
-//            id: '68471028@N02',
+//            id: '51789731@N07',
+            id: '68471028@N02',
 			lang: 'en-us',
 			format: 'json',
 			jsoncallback: '?'
